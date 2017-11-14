@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+    .row.row-no-padding
+      .column.column-25.column-offset-75
+        p nav buttons
+    .row
+      .column.column-50
+        h1= title
+      .column.column-50
+        p Welcome to #{title}
